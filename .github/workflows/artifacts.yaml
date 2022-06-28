@@ -26,3 +26,5 @@ jobs:
         run: ls -la
       - name: read directory
         run: pwd
+      - name: read file
+        run: cat output.log
